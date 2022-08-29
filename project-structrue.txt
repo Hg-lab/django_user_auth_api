@@ -1,0 +1,36 @@
+  
+  
+  
+  
+  
+  
+  
+   .
+   ├── accountapp - - - - - - - - 회원관리 서비스
+   │   ├── exceptions.py
+   │   ├── models.py
+   │   ├── open_api_params.py - - Swagger 실행 parameters
+   │   ├── permissions.py - - - - 로그인되지 않은 유저만 사용하도록 위함
+   │   ├── serializers.py
+   │   ├── tests.py - - - - - - - 테스트코드
+   │   ├── urls.py
+   │   ├── views.py
+   │   └── ...
+   ├── core - - - - - - - - - - - 프로젝트 세팅 폴더
+   │   ├── jwt_utils.py - - - - - encode, decode 구현
+   │   ├── models.py- - - - - - - TimeStampedModel 구현
+   │   ├── settings.py
+   │   ├── swagger_utils.py - - - Swagger UI 세팅
+   │   ├── urls.py
+   │   ├── views.py
+   │   ├── interface.py - - - - - SMS, Email 전송
+   │   ├── utils.py - - - - - - - data masking 함수
+   │   └── ...
+   ├── db.json
+   ├── db.sqlite3
+   ├── manage.py
+   ├── project-structrue.txt
+   ├── requirements.txt
+   ├── venv
+   └── ... 
+

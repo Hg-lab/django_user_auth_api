@@ -1,0 +1,482 @@
+[
+  {
+    "model": "auth.permission",
+    "pk": 1,
+    "fields": {
+      "name": "Can add log entry",
+      "content_type": 1,
+      "codename": "add_logentry"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 2,
+    "fields": {
+      "name": "Can change log entry",
+      "content_type": 1,
+      "codename": "change_logentry"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 3,
+    "fields": {
+      "name": "Can delete log entry",
+      "content_type": 1,
+      "codename": "delete_logentry"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 4,
+    "fields": {
+      "name": "Can view log entry",
+      "content_type": 1,
+      "codename": "view_logentry"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 5,
+    "fields": {
+      "name": "Can add permission",
+      "content_type": 2,
+      "codename": "add_permission"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 6,
+    "fields": {
+      "name": "Can change permission",
+      "content_type": 2,
+      "codename": "change_permission"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 7,
+    "fields": {
+      "name": "Can delete permission",
+      "content_type": 2,
+      "codename": "delete_permission"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 8,
+    "fields": {
+      "name": "Can view permission",
+      "content_type": 2,
+      "codename": "view_permission"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 9,
+    "fields": {
+      "name": "Can add group",
+      "content_type": 3,
+      "codename": "add_group"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 10,
+    "fields": {
+      "name": "Can change group",
+      "content_type": 3,
+      "codename": "change_group"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 11,
+    "fields": {
+      "name": "Can delete group",
+      "content_type": 3,
+      "codename": "delete_group"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 12,
+    "fields": {
+      "name": "Can view group",
+      "content_type": 3,
+      "codename": "view_group"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 13,
+    "fields": {
+      "name": "Can add content type",
+      "content_type": 4,
+      "codename": "add_contenttype"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 14,
+    "fields": {
+      "name": "Can change content type",
+      "content_type": 4,
+      "codename": "change_contenttype"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 15,
+    "fields": {
+      "name": "Can delete content type",
+      "content_type": 4,
+      "codename": "delete_contenttype"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 16,
+    "fields": {
+      "name": "Can view content type",
+      "content_type": 4,
+      "codename": "view_contenttype"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 17,
+    "fields": {
+      "name": "Can add session",
+      "content_type": 5,
+      "codename": "add_session"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 18,
+    "fields": {
+      "name": "Can change session",
+      "content_type": 5,
+      "codename": "change_session"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 19,
+    "fields": {
+      "name": "Can delete session",
+      "content_type": 5,
+      "codename": "delete_session"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 20,
+    "fields": {
+      "name": "Can view session",
+      "content_type": 5,
+      "codename": "view_session"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 21,
+    "fields": {
+      "name": "Can add user",
+      "content_type": 6,
+      "codename": "add_user"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 22,
+    "fields": {
+      "name": "Can change user",
+      "content_type": 6,
+      "codename": "change_user"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 23,
+    "fields": {
+      "name": "Can delete user",
+      "content_type": 6,
+      "codename": "delete_user"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 24,
+    "fields": {
+      "name": "Can view user",
+      "content_type": 6,
+      "codename": "view_user"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 25,
+    "fields": {
+      "name": "Can add auth_code",
+      "content_type": 7,
+      "codename": "add_auth_code"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 26,
+    "fields": {
+      "name": "Can change auth_code",
+      "content_type": 7,
+      "codename": "change_auth_code"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 27,
+    "fields": {
+      "name": "Can delete auth_code",
+      "content_type": 7,
+      "codename": "delete_auth_code"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 28,
+    "fields": {
+      "name": "Can view auth_code",
+      "content_type": 7,
+      "codename": "view_auth_code"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 29,
+    "fields": {
+      "name": "Can add auth code",
+      "content_type": 8,
+      "codename": "add_authcode"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 30,
+    "fields": {
+      "name": "Can change auth code",
+      "content_type": 8,
+      "codename": "change_authcode"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 31,
+    "fields": {
+      "name": "Can delete auth code",
+      "content_type": 8,
+      "codename": "delete_authcode"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 32,
+    "fields": {
+      "name": "Can view auth code",
+      "content_type": 8,
+      "codename": "view_authcode"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 1,
+    "fields": {
+      "app_label": "admin",
+      "model": "logentry"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 2,
+    "fields": {
+      "app_label": "auth",
+      "model": "permission"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 3,
+    "fields": {
+      "app_label": "auth",
+      "model": "group"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 4,
+    "fields": {
+      "app_label": "contenttypes",
+      "model": "contenttype"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 5,
+    "fields": {
+      "app_label": "sessions",
+      "model": "session"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 6,
+    "fields": {
+      "app_label": "accountapp",
+      "model": "user"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 7,
+    "fields": {
+      "app_label": "accountapp",
+      "model": "auth_code"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 8,
+    "fields": {
+      "app_label": "accountapp",
+      "model": "authcode"
+    }
+  },
+  {
+    "model": "sessions.session",
+    "pk": "562ceefbjq9f709x4e9m03pdnqlm10jn",
+    "fields": {
+      "session_data": ".eJxVjDsOwjAQBe_iGllrsv5R0ucMlr1e4wBypDipEHeHSCmgfTPzXiLEba1h67yEKYuLUOL0u6VID247yPfYbrOkua3LlOSuyIN2Oc6Zn9fD_TuosddvXdAmjUV5csqSZvbA2hYEjB4LkdODAzUwoDPKeDhjdgSGHIL3pLR4fwDPezbI:1oKIsO:4VmmqJT8YUmVkzCuauvxo0WhHG-h1ou4qAmq1AeaxOE",
+      "expire_date": "2022-08-20T12:25:56.967Z"
+    }
+  },
+  {
+    "model": "accountapp.user",
+    "pk": 1,
+    "fields": {
+      "password": "pbkdf2_sha256$390000$o3anSmHMb5dJLG1fIsfPlS$tPtzWWm+n607G/GP29d2pqerzsFJZgqOxcpjqMrkEoI=",
+      "last_login": "2022-08-06T12:25:56.964Z",
+      "is_superuser": true,
+      "username": "admin",
+      "first_name": "",
+      "last_name": "",
+      "is_staff": true,
+      "is_active": true,
+      "date_joined": "2022-08-05T04:09:23.926Z",
+      "email": "admin@email.com",
+      "nickname": "admin",
+      "phone": "01000000000",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "accountapp.user",
+    "pk": 12,
+    "fields": {
+      "password": "pbkdf2_sha256$390000$I0shC5qvob8eTihmJO7aju$S2CqISOpk22Bap+NuID9IhjCmuWHw/1baF7Yp0Roqps=",
+      "last_login": null,
+      "is_superuser": false,
+      "username": "test01",
+      "first_name": "한",
+      "last_name": "현규",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2022-08-09T02:05:51.650Z",
+      "email": "email@email.com",
+      "nickname": "nick01",
+      "phone": "01012341234",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "accountapp.authcode",
+    "pk": "01011111111",
+    "fields": {
+      "created_at": "2022-08-05T10:54:30.592Z",
+      "updated_at": "2022-08-06T16:12:31.121Z",
+      "code": 651943,
+      "is_authenticated": true
+    }
+  },
+  {
+    "model": "accountapp.authcode",
+    "pk": "01011111112",
+    "fields": {
+      "created_at": "2022-08-06T09:34:35.564Z",
+      "updated_at": "2022-08-06T09:34:35.565Z",
+      "code": 675703,
+      "is_authenticated": false
+    }
+  },
+  {
+    "model": "accountapp.authcode",
+    "pk": "010111111121111111111111",
+    "fields": {
+      "created_at": "2022-08-05T12:08:38.093Z",
+      "updated_at": "2022-08-05T12:08:38.093Z",
+      "code": 479061,
+      "is_authenticated": false
+    }
+  },
+  {
+    "model": "accountapp.authcode",
+    "pk": "010111111121111111112223232312312312312312311112",
+    "fields": {
+      "created_at": "2022-08-05T10:54:30.592Z",
+      "updated_at": "2022-08-05T11:08:20.307Z",
+      "code": 113231,
+      "is_authenticated": false
+    }
+  },
+  {
+    "model": "accountapp.authcode",
+    "pk": "01012341234",
+    "fields": {
+      "created_at": "2022-08-07T05:10:53.841Z",
+      "updated_at": "2022-08-09T02:05:23.245Z",
+      "code": 328682,
+      "is_authenticated": false
+    }
+  },
+  {
+    "model": "accountapp.authcode",
+    "pk": "0101234123411111111111",
+    "fields": {
+      "created_at": "2022-08-08T11:53:05.379Z",
+      "updated_at": "2022-08-08T11:53:06.169Z",
+      "code": 551380,
+      "is_authenticated": false
+    }
+  },
+  {
+    "model": "accountapp.authcode",
+    "pk": "1",
+    "fields": {
+      "created_at": "2022-08-05T12:20:24.131Z",
+      "updated_at": "2022-08-05T12:20:24.131Z",
+      "code": 685284,
+      "is_authenticated": false
+    }
+  },
+  {
+    "model": "accountapp.authcode",
+    "pk": "11011111111",
+    "fields": {
+      "created_at": "2022-08-05T12:13:12.754Z",
+      "updated_at": "2022-08-05T12:13:12.754Z",
+      "code": 795477,
+      "is_authenticated": false
+    }
+  }
+]
